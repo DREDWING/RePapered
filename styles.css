@@ -1,0 +1,97 @@
+/* Global Styles */
+body {
+    background-image: url('background.jpg'); /* Replace 'background.jpg' with your image file name */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image horizontally and vertically */
+}
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Navigation Menu Styles */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #45a049;
+}
+
+/* Main Content Container */
+.container {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Button Style */
+a {
+    display: inline-block;
+    background-color: #45a049;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #4CAF50;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Additional Styles */
+.product {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
